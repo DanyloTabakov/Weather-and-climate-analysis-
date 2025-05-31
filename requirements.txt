@@ -1,0 +1,1 @@
+libraries that user needs to install to run our project, or we make compose.yaml file and user doeant need to install anythin but our file 
