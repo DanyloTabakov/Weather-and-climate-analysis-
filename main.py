@@ -1,1 +1,0 @@
-# main script to run the whole analysis
