@@ -4,25 +4,6 @@ This project analyzes historical weather data (specifically temperature) to expl
 
 ---
 
-## 📁 Project Structure
-weather_project/
-├── src/ # Modular code
-│ ├── download.py # API download functions
-│ ├── preprocessing.py # Data cleaning and resampling
-│ ├── analysis.py # Trend, noise, and stats computation
-│ └── visualization.py # Plotting functions
-├── data/
-│ ├── raw/ # Raw CSVs from the API
-│ └── processed/ # Cleaned & resampled data
-├── results/
-│ ├── plots/ # PNG plots of temperature trends
-│ └── summaries/ # Summary statistics CSV
-├── main.py # Main script to run everything
-├── requirements.txt # All needed Python libraries
-└── .gitignore # Ignore data/ and results/ folders
-
----
-
 ## 🚀 How to Run
 
 ### 1. 📦 Install Requirements
@@ -40,6 +21,25 @@ This will:
     - Measure noise (short-term fluctuations)
     - Generate plots and save summary statistics
 
+
+## 📁 Project Structure
+weather_project/
+├── src/ # Modular code
+│ ├── download.py # API download functions
+│ ├── preprocessing.py # Data cleaning and resampling
+│ ├── analysis.py # Trend, noise, and stats computation
+│ └── visualization.py # Plotting functions
+├── data/
+│ ├── raw/ # Raw CSVs from the API
+│ └── processed/ # Cleaned & resampled data
+├── results/
+│ ├── plots/ # PNG plots of temperature trends
+│ └── summaries/ # Summary statistics CSV
+├── main.py # Main script to run everything
+├── requirements.txt # All needed Python libraries
+└── .gitignore # Ignore data/ and results/ folders
+
+
 📊 Output
 
 Plots:
@@ -49,14 +49,18 @@ Statistics:
 Saved in results/summaries/daily_stats.csv
 → Count, mean, std, min, quartiles, max
 
+
 🧠 Key Concepts
 
 Trend = long-term direction in the data (e.g. warming)
 Noise = short-term random variation (e.g. weather chaos)
 Statistics = mean, standard deviation, etc.
+
+
 🌐 Data Source
 
 Data is downloaded from Open-Meteo Historical API.
+
 
 🛠️ Dependencies
 
@@ -65,6 +69,7 @@ numpy
 matplotlib
 scipy
 requests
+
 
 📌 Example Use
 
