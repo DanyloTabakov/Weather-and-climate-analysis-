@@ -1,4 +1,3 @@
-# here wiil be plotting functions
 import matplotlib.pyplot as plt
 import os
 
